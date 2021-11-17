@@ -1,6 +1,6 @@
 			<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="homepage.php"><img src="photos/film.png" width= 40px></a>
+					<a class="navbar-brand" href="homepage.php"><img src="photos/film.png" width=40px></a>
 
 
 
@@ -13,8 +13,8 @@
 						</li>
 					</ul>
 
-					<form method = "post" class="form-inline" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
-   						<button class="btn btn-success" type="submit" name="logout">Logout</button>
-  					</form>
-				</div>	
+					<form method="post" class="form-inline" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+						<button class="btn btn-success" type="submit" name="logout">Logout</button>
+					</form>
+				</div>
 			</nav>
